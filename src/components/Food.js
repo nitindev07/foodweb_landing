@@ -60,7 +60,7 @@ const Food = () => {
         {categories.map((items, id)=>(
             <div key={id} className='cursor-pointer flex w-full items-center justify-between md:justify-around bg-gray-200 rounded-lg shadow-lg hover:scale-110 duration-300'>
                  <p className='ml-4 font-bold'>{items.name}</p>
-                 <img src={items.image} alt={items.name} className=' h-[120px]' />
+                 <img src={items.image} alt={items.name} className='h-[90px] md:h-[120px]' />
                 
 
             </div>
